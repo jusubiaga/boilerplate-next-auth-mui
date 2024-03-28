@@ -1,4 +1,4 @@
-# Boileplate Next, Auth, MUI
+# Boilerplate: Next, Auth, MUI
 
 Key Features:
 
@@ -35,7 +35,6 @@ npm i
 
 ```js
 DATABASE_URL=
-DIRECT_URL=
 
 AUTH_SECRET=
 
@@ -55,6 +54,9 @@ NEXT_PUBLIC_APP_URL=
 ```shell
 npx prisma generate
 npx prisma db push
+
+// view
+npx prisma studio
 ```
 
 ### Start the app
