@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 import { CirclePlus, Megaphone, ChevronRight } from "lucide-react";
 
 function companyPage() {
@@ -16,7 +17,8 @@ function companyPage() {
         </div>
       </header>
 
-      <div className="flex gap-4">
+      <Separator />
+      <div className="mt-4 flex gap-4">
         <Card className="w-[150px] h-[150px] cursor-pointer">
           <CardContent className="flex h-full w-full flex-col gap-y-5 items-center justify-center p-0 m-0">
             {/* <Button variant="ghost" size="icon"> */}
